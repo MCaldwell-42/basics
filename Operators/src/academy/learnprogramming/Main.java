@@ -57,6 +57,24 @@ public class Main {
             System.out.println("This is not supposed to happen");
         }
 
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        // shortcut to if else then statements
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        double twinky = 20.00d;
+        double anky = 80.00d;
+        double twanky = (twinky + anky) * 100d;
+        double remainder = twanky % 40.00;
+        boolean hankypanky = (remainder == 0.00) ? true : false;
+        System.out.println(hankypanky);
+        if (!hankypanky) {
+            System.out.println("Got some remainder");
+        } else {
+            System.out.println("Remainder is Zero. We da best");
+        }
 
     }
 }

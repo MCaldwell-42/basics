@@ -5,7 +5,7 @@ public class VipCustomer {
     private String name;
     private double creditLimit;
     private String email;
-
+    // can make constructors, getters, setters, etc via intelliJ for quick coding
     public VipCustomer() {
         this("Mr. Jenkins", 9000, "standin@email.com");
         System.out.println("empty default constructor called");

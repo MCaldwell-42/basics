@@ -22,6 +22,11 @@ public class Main {
 		EnhancedPlayer player = new EnhancedPlayer("Tim", 120, "sword");
 		System.out.println("Initial health is "+player.getHealth());
 
+		Printer myPrinter = new Printer(80, true);
+		myPrinter.printPage(4);
+		myPrinter.newTonerCart();
+		myPrinter.newTonerCart();
+
 
     }
 }
